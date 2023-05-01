@@ -1,8 +1,8 @@
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
 
-canvas.width = 64 * 16 // 1024
-canvas.height = 64 * 9 // 576
+canvas.width = 64 * 5 // 320
+canvas.height = 64 * 3 // 200
 
 let parsedCollisions
 let collisionBlocks
